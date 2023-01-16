@@ -24,7 +24,7 @@ import (
     "bytes"
     "fmt"
     "github.com/gin-gonic/gin"
-    zerologgin "github.com/go-mods/zerolog-gin"
+    zerologgin "github.com/Hochfrequenz/zerolog-gin"
     "github.com/rs/zerolog"
     "io"
     "net/http"
