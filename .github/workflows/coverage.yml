@@ -1,0 +1,24 @@
+name: coverage
+on:
+  push:
+  pull_request:
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Go
+        if: success()
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.19.x
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      - name: Calc coverage
+        run: go test ./... -v -covermode=count -coverprofile=coverage.out
+      - name: Convert coverage to lcov
+        uses: jandelgado/gcov2lcov-action@v1.0.9
+      - name: Enforce Min Coverage
+        uses: VeryGoodOpenSource/very_good_coverage@v2.1.0
+        with:
+          path: "coverage.lcov"
+          min_coverage: 75 # the plan is to increase this with time
