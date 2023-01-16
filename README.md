@@ -5,7 +5,7 @@
 ![Linter status badge](https://github.com/Hochfrequenz/zerolog-gin/workflows/golangci-lint/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/Hochfrequenz/zerolog-gin)](https://goreportcard.com/report/github.com/Hochfrequenz/zerolog-gin)
 [![Go Reference](https://pkg.go.dev/badge/github.com/hochfrequenz/zerolog-gin.svg)](https://pkg.go.dev/github.com/hochfrequenz/zerolog-gin)
-[![license](https://img.shields.io/github/license/go-mods/zerolog-gin)](./LICENSE)
+[![license](https://img.shields.io/github/license/hochfrequenz/zerolog-gin)](./LICENSE)
 
 Zerolog logger for gin
 

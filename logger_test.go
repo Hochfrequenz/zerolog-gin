@@ -3,7 +3,7 @@ package zerologgin_test
 import (
 	"bytes"
 	"github.com/gin-gonic/gin"
-	zerologgin "github.com/go-mods/zerolog-gin"
+	zerologgin "github.com/hochfrequenz/zerolog-gin"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/assert"
 	"io"
