@@ -1,4 +1,4 @@
-module github.com/go-mods/zerolog-gin
+module github.com/hochfrequenz/zerolog-gin
 
 go 1.19
 
