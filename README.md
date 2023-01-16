@@ -7,7 +7,11 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/hochfrequenz/zerolog-gin.svg)](https://pkg.go.dev/github.com/hochfrequenz/zerolog-gin)
 [![license](https://img.shields.io/github/license/hochfrequenz/zerolog-gin)](./LICENSE)
 
-Zerolog logger for gin
+Zerolog logger for gin.
+
+This is a fork of [go-mods/zerolog-gin](https://github.com/go-mods/zerolog-gin).
+After the fork we added Continuous Integration (linting, test and coverage) as well as dependabot version updates.
+This repo can be version pinned.
 
 ## Installation
 
