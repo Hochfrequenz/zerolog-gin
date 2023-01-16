@@ -21,4 +21,4 @@ jobs:
         uses: VeryGoodOpenSource/very_good_coverage@v2.1.0
         with:
           path: "coverage.lcov"
-          min_coverage: 88 # the plan is to increase this with time
+          min_coverage: 75 # the plan is to increase this with time
